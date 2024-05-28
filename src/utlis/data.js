@@ -365,7 +365,7 @@ export const SERVICES = [
 
 export const PORTFOLIO = [
   {
-    id: "1",
+    id: 0,
     image: "./assets/Portfolio/Homepie_47c90a2ecd.png",
     title: "Home Pie",
     descritpion:
@@ -373,7 +373,7 @@ export const PORTFOLIO = [
     buttonlink: "#",
   },
   {
-    id: "2",
+    id: 1,
     image: "./assets/Portfolio/Anakeed_Mart_2594aedbb.png",
     title: "Anakeed Mart",
     descritpion:
@@ -381,7 +381,7 @@ export const PORTFOLIO = [
     buttonlink: "#",
   },
   {
-    id: "3",
+    id: 2,
     image: "./assets/Portfolio/Column_c4c1033c7.png",
     title: "Column",
     descritpion:
@@ -389,7 +389,7 @@ export const PORTFOLIO = [
     buttonlink: "#",
   },
   {
-    id: "4",
+    id: 3,
     image: "./assets/Portfolio/Tunevu_e92f113f301.png",
     title: "Tunevu",
     descritpion:
@@ -397,7 +397,7 @@ export const PORTFOLIO = [
     buttonlink: "#",
   },
   {
-    id: "5",
+    id: 4,
     image: "./assets/Portfolio/Stitch_f52ead7eea.png",
     title: "Stitch.Health",
     descritpion:
@@ -405,7 +405,7 @@ export const PORTFOLIO = [
     buttonlink: "#",
   },
   {
-    id: "6",
+    id: 5,
     image: "./assets/Portfolio/Stakester_060098de90.png",
     title: "Stakester",
     descritpion:
@@ -413,7 +413,7 @@ export const PORTFOLIO = [
     buttonlink: "#",
   },
   {
-    id: "7",
+    id: 6,
     image: "./assets/Portfolio/Shieldrepublic_42888b8bf4.png",
     title: "Shield Republic",
     descritpion:
@@ -421,7 +421,7 @@ export const PORTFOLIO = [
     buttonlink: "#",
   },
   {
-    id: "8",
+    id: 7,
     image: "./assets/Portfolio/Meridio_ffbffbd75a.png",
     title: "Meridio",
     descritpion:
@@ -429,7 +429,7 @@ export const PORTFOLIO = [
     buttonlink: "#",
   },
   {
-    id: "9",
+    id: 8,
     image: "./assets/Portfolio/Global_Reader_735f3a97f.png",
     title: "Global Reader",
     descritpion:
@@ -437,7 +437,7 @@ export const PORTFOLIO = [
     buttonlink: "#",
   },
   {
-    id: "10",
+    id: 9,
     image: "./assets/Portfolio/Curriki_66e0324a0.png",
     title: "Curriki",
     descritpion:
