@@ -63,3 +63,30 @@ export const dataCards04 = [
     properties: "3 Bed | 3 Bath | 3,000 sq. ft",
   },
 ];
+
+export const dataCards05 = [
+  {
+    card_image: "./assets/media/cards05/lakeview-elegance.png",
+    alt_text: "Lakeview Elegance",
+    title: "Lakeview Elegance",
+    description: "258 Serenity Lane, Crestwood Hills",
+  },
+  {
+    card_image: "./assets/media/cards05/vista-paradiso.png",
+    alt_text: "Vista Paradiso",
+    title: "Vista Paradiso",
+    description: "123 Paradise Road, Lakeview",
+  },
+  {
+    card_image: "./assets/media/cards05/balcony-appartment.jpg",
+    alt_text: "Garden Vista",
+    title: "Garden Vista",
+    description: "123 Tranquil Terrace Greenfield Grove",
+  },
+  {
+    card_image: "./assets/media/cards05/skyline-oasis.png",
+    alt_text: "Skyline Oasis",
+    title: "Skyline Oasis",
+    description: "450 Metropolitan Ave, Downtown",
+  },
+];
