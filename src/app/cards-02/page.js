@@ -1,6 +1,6 @@
 import React from "react";
 import "../cards-02/style.css";
-import { dataCards02 } from "@/utlis/blogData";
+import { dataCards02 } from "@/utlis/cardsData";
 import Link from "next/link";
 
 export const metadata = {
