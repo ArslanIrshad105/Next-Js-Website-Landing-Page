@@ -181,3 +181,77 @@ export const blogData = [
     time: "2 days ago",
   },
 ];
+export const dataCards01 = [
+  {
+    title: "Blog 1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan.",
+    link_url: "#",
+    blog_image: "./assets/media/cards01/blog-image-1.jpg",
+    alt_text: "Blog Image 1",
+  },
+  {
+    title: "Blog 2",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan.",
+    link_url: "#",
+    blog_image: "./assets/media/cards01/blog-image-2.jpg",
+    alt_text: "Blog Image 2",
+  },
+  {
+    title: "Blog 3",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan.",
+    link_url: "#",
+    blog_image: "./assets/media/cards01/blog-image-3.jpg",
+    alt_text: "Blog Image 3",
+  },
+  {
+    title: "Blog 4",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan.",
+    link_url: "#",
+    blog_image: "./assets/media/cards01/blog-image-4.jpg",
+    alt_text: "Blog Image 4",
+  },
+  {
+    title: "Blog 5",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan.",
+    link_url: "#",
+    blog_image: "./assets/media/cards01/blog-image-5.jpg",
+    alt_text: "Blog Image 5",
+  },
+  {
+    title: "Blog 6",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan.",
+    link_url: "#",
+    blog_image: "./assets/media/cards01/blog-image-6.jpg",
+    alt_text: "Blog Image 6",
+  },
+  {
+    title: "Blog 7",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan.",
+    link_url: "#",
+    blog_image: "./assets/media/cards01/blog-image-7.jpg",
+    alt_text: "Blog Image 7",
+  },
+  {
+    title: "Blog 8",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan.",
+    link_url: "#",
+    blog_image: "./assets/media/cards01/blog-image-8.jpg",
+    alt_text: "Blog Image 8",
+  },
+  {
+    title: "Blog 9",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent in mauris eu tortor porttitor accumsan.",
+    link_url: "#",
+    blog_image: "./assets/media/cards01/blog-image-9.jpg",
+    alt_text: "Blog Image 9",
+  },
+];

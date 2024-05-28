@@ -9,7 +9,6 @@ import Portfolio from "@/sections/Hero/Portfolio/Portfolio";
 
 export default function Home() {
   return (
-    //
     <>
       <Header />
       {/* <Hero /> */}
