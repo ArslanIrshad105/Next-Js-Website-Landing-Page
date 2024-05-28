@@ -255,3 +255,33 @@ export const dataCards01 = [
     alt_text: "Blog Image 9",
   },
 ];
+
+export const dataCards02 = [
+  {
+    card_image: "./assets/media/cards02/card-1.png",
+    alt_text: "Card Image 1",
+    title: "Use a pre-integrated platform",
+    description:
+      "Explore our directory to find out-of-the-box solutions that connect with Stripe, such asSquarespaceand Lightspeed.",
+    link_text: "Set Directory",
+    link_url: "#",
+  },
+  {
+    card_image: "./assets/media/cards02/card-2.png",
+    alt_text: "Card Image 2",
+    title: "Build with Stripe-certified experts",
+    description:
+      "Work with a Stripe consulting partner that can integrate and deploy Stripe solutions for you.",
+    link_text: "Find Experts",
+    link_url: "#",
+  },
+  {
+    card_image: "./assets/media/cards02/card-3.png",
+    alt_text: "Card Image 3",
+    title: "Try our no-code products",
+    description:
+      "Create an invoice or share a payment link directly from your Dashboard to start generating revenue in minutes – no code required.",
+    link_text: "Explore no-code",
+    link_url: "#",
+  },
+];
