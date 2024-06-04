@@ -22,7 +22,7 @@ const DropdownMenu = () => {
           <div>
             <img
               className="profile"
-              src="assets/media/dropdown-menu-01/joe-doe-profile.png"
+              src="assets/media/dropdown-menu-01/Arslan-profile.jpg"
               alt="Joe Doe Picture"
               onClick={() => setIsOpenSelect(!isOpenSelect)}
             />
@@ -31,7 +31,7 @@ const DropdownMenu = () => {
               className={
                 isOpenSelect
                   ? "dropdown__wrapper dropdown__wrapper--fade-in"
-                  : "dropdown__wrapper hide dropdown__wrapper--fade-in none"
+                  : "none"
               }
             >
               <div className="dropdown__group">
