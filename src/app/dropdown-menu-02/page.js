@@ -115,7 +115,6 @@ const DropdownMenu = () => {
           />
         </button>
       </div>
-      {/* <div className="dropdown__wrapper hide dropdown__wrapper--fade-in none"> */}
     </header>
   );
 };
