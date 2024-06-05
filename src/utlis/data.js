@@ -519,3 +519,25 @@ export const GALLERY04 = [
     text: "Forest Mountain",
   },
 ];
+export const GALLERY05 = [
+  {
+    image: "assets/media/gallery-02/forest.jpg",
+    altText: "Forest",
+  },
+  {
+    image: "assets/media/gallery-02/lavender-field.jpg",
+    altText: "Lavender Field",
+  },
+  {
+    image: "assets/media/gallery-02/wooden-bridge.jpg",
+    altText: "Wooden Bridge",
+  },
+  {
+    image: "assets/media/gallery-02/forest-mountain.jpg",
+    altText: "Forest Mountain",
+  },
+  {
+    image: "assets/media/gallery-02/snow-scenery.jpg",
+    altText: "Snow Scenery",
+  },
+];

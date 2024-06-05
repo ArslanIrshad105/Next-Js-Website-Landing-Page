@@ -4,7 +4,7 @@ import { GALLERY04 } from "@/utlis/data";
 
 const Gallery = () => {
   return (
-    <div class="gallery">
+    <div className="gallery">
       {GALLERY04.map((item) => {
         return (
           <div class="card">
