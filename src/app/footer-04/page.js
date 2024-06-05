@@ -4,10 +4,14 @@ import "../footer-04/style.css";
 const Footer = () => {
   return (
     <footer>
-      <div class="footer-wrapper">
-        <div class="footer-columns">
-          <section class="footer-logo-column">
-            <a href="/" aria-label="Go to GitHub homepage" class="footer-logo">
+      <div className="footer-wrapper">
+        <div className="footer-columns">
+          <section className="footer-logo-column">
+            <a
+              href="/"
+              aria-label="Go to GitHub homepage"
+              className="footer-logo"
+            >
               <svg
                 height="30"
                 aria-hidden="true"
@@ -27,13 +31,13 @@ const Footer = () => {
               </p>
             </div>
             <a
-              class="subscribe-btn"
+              className="subscribe-btn"
               href="https://resources.github.com/newsletter/"
             >
               Subscribe
             </a>
           </section>
-          <div class="other-columns">
+          <div className="other-columns">
             <section>
               <h3>Product</h3>
               <ul>
@@ -183,12 +187,12 @@ const Footer = () => {
         </div>
       </div>
       {/* bottom part section */}
-      <div class="footer-bottom">
-        <div class="footer-bottom-wrapper">
+      <div className="footer-bottom">
+        <div className="footer-bottom-wrapper">
           <small>
             © <span id="year"></span> GitHub Inc.
           </small>
-          <ul class="footer-bottom-links">
+          <ul className="footer-bottom-links">
             <li>
               <a href="#" title="Terms">
                 Terms
@@ -210,8 +214,8 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <div class="social-wrapper">
-            <div class="social-links">
+          <div className="social-wrapper">
+            <div className="social-links">
               <ul>
                 <li>
                   <a href="#" title="Facebook">

@@ -3,9 +3,9 @@ import "../form-controls-02/style.css";
 
 const Formcontrols = () => {
   return (
-    <div class="centering">
-      <div class="box">
-        <input class="search" placeholder=" " spellcheck="false" />
+    <div className="centering">
+      <div className="box">
+        <input className="search" placeholder=" " spellcheck="false" />
       </div>
     </div>
   );

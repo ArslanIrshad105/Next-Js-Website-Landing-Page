@@ -463,3 +463,21 @@ export const GALLERY01 = [
     altText: "Winter",
   },
 ];
+export const GALLERY02 = [
+  {
+    image: "assets/media/gallery-02/forest.jpg",
+    altText: "Forest",
+  },
+  {
+    image: "assets/media/gallery-02/forest-mountain.jpg",
+    altText: "Forest mountain",
+  },
+  {
+    image: "assets/media/gallery-02/lavender-field.jpg",
+    altText: "Lavender Field",
+  },
+  {
+    image: "assets/media/gallery-02/wooden-bridge.jpg",
+    altText: "Wooden Bridge",
+  },
+];

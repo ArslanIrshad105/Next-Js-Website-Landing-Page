@@ -4,20 +4,20 @@ import "../footer-02/style.css";
 const Footer = () => {
   return (
     <footer>
-      <div class="footer-line"></div>
-      <div class="footer-wrapper">
-        <section class="footer-top">
-          <div class="footer-headline">
+      <div className="footer-line"></div>
+      <div className="footer-wrapper">
+        <section className="footer-top">
+          <div className="footer-headline">
             <h2>Subscribe to our newsletter</h2>
             <p>Stay up to date with our news and articles</p>
           </div>
-          <div class="footer-subscribe">
+          <div className="footer-subscribe">
             <input type="email" spellcheck="false" placeholder="Your Email" />
             <button>Sign Up</button>
           </div>
         </section>
-        <div class="footer-columns">
-          <section class="footer-logo">
+        <div className="footer-columns">
+          <section className="footer-logo">
             <h2>
               <svg
                 width="1103"
@@ -162,8 +162,8 @@ const Footer = () => {
             </ul>
           </section>
         </div>
-        <div class="footer-bottom">
-          <div class="social-links">
+        <div className="footer-bottom">
+          <div className="social-links">
             <ul>
               <li>
                 <a href="#" title="Instagram">

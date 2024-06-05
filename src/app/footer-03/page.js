@@ -4,22 +4,22 @@ import "../footer-03/style.css";
 const Footer = () => {
   return (
     <>
-      <section class="subscription-section">
-        <div class="subscription-wrapper">
-          <div class="subscription__description">
+      <section className="subscription-section">
+        <div className="subscription-wrapper">
+          <div className="subscription__description">
             <h2>Join 10k+ other readers!</h2>
             <p>Stay up to date with our news and articles</p>
           </div>
-          <form class="subscribe-form">
+          <form className="subscribe-form">
             <input type="email" spellcheck="false" placeholder="Your Email" />
             <button type="submit">Subscribe</button>
           </form>
         </div>
       </section>
       <footer>
-        <div class="footer-wrapper">
-          <div class="social-wrapper">
-            <div class="social-links">
+        <div className="footer-wrapper">
+          <div className="social-wrapper">
+            <div className="social-links">
               <ul>
                 <li>
                   <a href="#" title="Instagram">
@@ -62,9 +62,9 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="footer-columns">
-            <div class="footer-links">
-              <div class="footer-logo">
+          <div className="footer-columns">
+            <div className="footer-links">
+              <div className="footer-logo">
                 <svg
                   width="1103"
                   height="996"
@@ -208,8 +208,8 @@ const Footer = () => {
               </section>
             </div>
           </div>
-          <div class="footer-bottom">
-            <div class="footer-description">
+          <div className="footer-bottom">
+            <div className="footer-description">
               <h3>Elevate your tech skills</h3>
               <p>Develop and design platforms with ease</p>
             </div>

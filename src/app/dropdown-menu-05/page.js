@@ -3,9 +3,9 @@ import "../dropdown-menu-05/style.css";
 
 const DropdownMenu = () => {
   return (
-    <header class="menu__wrapper">
-      <div class="menu__bar">
-        <a href="#" title="Home" aria-label="home" class="logo">
+    <header className="menu__wrapper">
+      <div className="menu__bar">
+        <a href="#" title="Home" aria-label="home" className="logo">
           <svg
             aria-label="Vercel logotype"
             height="22"
@@ -16,7 +16,7 @@ const DropdownMenu = () => {
           </svg>
         </a>
         <nav>
-          <ul class="navigation hide">
+          <ul className="navigation hide">
             <li>
               <button>
                 Features
@@ -30,9 +30,9 @@ const DropdownMenu = () => {
                   <path d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z"></path>
                 </svg>
               </button>
-              <div class="dropdown__wrapper">
-                <div class="dropdown">
-                  <ul class="list-items-with-description">
+              <div className="dropdown__wrapper">
+                <div className="dropdown">
+                  <ul className="list-items-with-description">
                     <li>
                       <svg
                         aria-hidden="true"
@@ -48,7 +48,7 @@ const DropdownMenu = () => {
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" />
                       </svg>
-                      <div class="item-title">
+                      <div className="item-title">
                         <h3>Previews</h3>
                         <p>Zero config, more innovation</p>
                       </div>
@@ -70,7 +70,7 @@ const DropdownMenu = () => {
                         <path d="M4 12l8 4l8 -4" />
                         <path d="M4 16l8 4l8 -4" />
                       </svg>
-                      <div class="item-title">
+                      <div className="item-title">
                         <h3>Infrastructure</h3>
                         <p>Always fast always online</p>
                       </div>
@@ -78,7 +78,7 @@ const DropdownMenu = () => {
                     <li>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-brand-nextjs"
+                        className="icon icon-tabler icon-tabler-brand-nextjs"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -92,7 +92,7 @@ const DropdownMenu = () => {
                         <path d="M9 15v-6l7.745 10.65a9 9 0 1 1 2.255 -1.993" />
                         <path d="M15 12v-3" />
                       </svg>
-                      <div class="item-title">
+                      <div className="item-title">
                         <h3>Next js</h3>
                         <p>The native Next.js platform</p>
                       </div>
@@ -116,7 +116,7 @@ const DropdownMenu = () => {
                         <path d="M11.5 3a17 17 0 0 0 0 18" />
                         <path d="M12.5 3a17 17 0 0 1 0 18" />
                       </svg>
-                      <div class="item-title">
+                      <div className="item-title">
                         <h3>Edge Functions</h3>
                         <p>Dynamic pages, static speed</p>
                       </div>
@@ -136,7 +136,7 @@ const DropdownMenu = () => {
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M3 12h4l3 8l4 -16l3 8h4" />
                       </svg>
-                      <div class="item-title">
+                      <div className="item-title">
                         <h3>Analytics</h3>
                         <p>Real-time insights, peak performance</p>
                       </div>
@@ -158,7 +158,7 @@ const DropdownMenu = () => {
                         <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
                         <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
                       </svg>
-                      <div class="item-title">
+                      <div className="item-title">
                         <h3>Storage</h3>
                         <p>Serverless storage for frontend</p>
                       </div>
@@ -195,18 +195,18 @@ const DropdownMenu = () => {
           </ul>
         </nav>
       </div>
-      <div class="action-buttons hide">
-        <a href="#log-in" title="Log in" class="secondary">
+      <div className="action-buttons hide">
+        <a href="#log-in" title="Log in" className="secondary">
           Log In
         </a>
-        <a href="#sign-up" title="Sign up" class="primary">
+        <a href="#sign-up" title="Sign up" className="primary">
           Sign up
         </a>
       </div>
-      <button aria-label="Open menu" class="burger-menu" type="button">
+      <button aria-label="Open menu" className="burger-menu" type="button">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="icon icon-tabler icon-tabler-menu"
+          className="icon icon-tabler icon-tabler-menu"
           width="24"
           height="24"
           viewBox="0 0 24 24"
