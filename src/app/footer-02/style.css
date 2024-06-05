@@ -8,28 +8,9 @@
   --button-border: #6b707c;
 }
 
-html {
-  font-size: 16px;
-  font-family: "Red Hat Display", sans-serif;
-}
-
-/*? footer reset */
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  background: #fafbfc;
-}
-
-/*? footer containers */
 footer {
-  position: absolute;
+  /* position: absolute; */
+  margin-top: 6rem;
   bottom: 0;
   background: var(--footer-background);
   min-width: 18rem;

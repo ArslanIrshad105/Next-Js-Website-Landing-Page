@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
-
 :root {
   --footer-background: white;
   --text-color: #111420;
@@ -7,28 +5,11 @@
   --text-heading-gray: #b9b9b9;
 }
 
-html {
-  font-size: 16px;
-  font-family: "Red Hat Display", sans-serif;
-}
-
-/*? footer reset */
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
 /*? footer containers */
 
 footer {
-  position: absolute;
+  /* position: absolute; */
+  margin-top: 5rem;
   bottom: 0;
   background-color: var(--footer-background);
   min-width: 18rem;
