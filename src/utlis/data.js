@@ -541,3 +541,21 @@ export const GALLERY05 = [
     altText: "Snow Scenery",
   },
 ];
+export const GALLERY06 = [
+  {
+    image: "assets/media/gallery-06/lakeview-elegance.png",
+    altText: "Lakeview Elegance",
+  },
+  {
+    image: "assets/media/gallery-06/skyline-oasis.png",
+    altText: "Skyline Oasis ",
+  },
+  {
+    image: "assets/media/gallery-06/vista-paradiso.png",
+    altText: "Vista Paradiso",
+  },
+  {
+    image: "assets/media/gallery-06/villa-verde.png",
+    altText: "Villa Verde",
+  },
+];
