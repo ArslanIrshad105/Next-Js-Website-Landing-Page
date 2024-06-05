@@ -4,9 +4,9 @@ import "../footer-05/style.css";
 const Footer = () => {
   return (
     <footer>
-      <div class="footer-wrapper">
-        <div class="footer-columns">
-          <div class="footer-logo-column">
+      <div className="footer-wrapper">
+        <div className="footer-columns">
+          <div className="footer-logo-column">
             <a
               href="/"
               aria-label="Go to Supabase homepage"
@@ -16,18 +16,18 @@ const Footer = () => {
                 src="assets/media/footer-05/logo.png"
                 loading="lazy"
                 alt="Supabase logo"
-                class="footer-logo"
+                className="footer-logo"
                 width="200"
               />
             </a>
-            <div class="social-wrapper">
-              <div class="social-links">
+            <div className="social-wrapper">
+              <div className="social-links">
                 <ul>
                   <li>
                     <a href="#" title="Twitter">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-brand-x"
+                        className="icon icon-tabler icon-tabler-brand-x"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -47,7 +47,7 @@ const Footer = () => {
                     <a href="#" title="GitHub">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-brand-github"
+                        className="icon icon-tabler icon-tabler-brand-github"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -66,7 +66,7 @@ const Footer = () => {
                     <a href="#" title="Discord">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-brand-discord"
+                        className="icon icon-tabler icon-tabler-brand-discord"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -88,7 +88,7 @@ const Footer = () => {
                     <a href="#" title="Youtube">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-brand-youtube"
+                        className="icon icon-tabler icon-tabler-brand-youtube"
                         width="24"
                         height="24"
                         viewBox="0 0 24 24"
@@ -108,7 +108,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div class="link-columns">
+          <div className="link-columns">
             <div>
               <section>
                 <h3>Product</h3>
@@ -263,8 +263,8 @@ const Footer = () => {
         </div>
       </div>
       {/* bottom part section */}
-      <div class="footer-bottom">
-        <div class="footer-bottom-wrapper">
+      <div className="footer-bottom">
+        <div className="footer-bottom-wrapper">
           <small>
             © <span id="year"></span> Supabase Inc.
           </small>

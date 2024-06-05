@@ -3,11 +3,11 @@ import "../dropzone-01/style.css";
 
 const Dropzone = () => {
   return (
-    <form class="dropzone-box">
+    <form className="dropzone-box">
       <h2>Upload and attach files</h2>
       <p>Attach files to this project</p>
-      <div class="dropzone-area">
-        <div class="file-upload-icon">
+      <div className="dropzone-area">
+        <div className="file-upload-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -27,9 +27,9 @@ const Dropzone = () => {
         <p>Click to upload or drag and drop</p>
 
         <input type="file" required id="upload-file" name="uploaded-file" />
-        <p class="message">No Files Selected</p>
+        <p className="message">No Files Selected</p>
       </div>
-      <div class="dropzone-actions">
+      <div className="dropzone-actions">
         <button type="reset">Cancel</button>
         <button id="submit-button" type="submit">
           Save

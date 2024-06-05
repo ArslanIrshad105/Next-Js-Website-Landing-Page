@@ -4,11 +4,11 @@ import { GALLERY01 } from "@/utlis/data";
 
 const Gallery = () => {
   return (
-    <div class="background">
-      <div class="gallery">
+    <div className="background">
+      <div className="gallery">
         {GALLERY01.map((item) => {
           return (
-            <div class="card">
+            <div className="card">
               <figure>
                 <img src={item.image} alt={item.altText} />
               </figure>

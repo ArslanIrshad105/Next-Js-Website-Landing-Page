@@ -3,9 +3,9 @@ import "../form-controls-01/style.css";
 
 const Formcontrols = () => {
   return (
-    <div class="discussion">
-      <div class="discussion__header">
-        <div class="authed-user"></div>
+    <div className="discussion">
+      <div className="discussion__header">
+        <div className="authed-user"></div>
         <form id="newcomment__form">
           <textarea
             tabindex="1"
@@ -15,10 +15,10 @@ const Formcontrols = () => {
             required
             placeholder="Write a comment"
           ></textarea>
-          <div class="newcomment__toolbar">
+          <div className="newcomment__toolbar">
             <button
               id="reset-button"
-              class="button--secondary"
+              className="button--secondary"
               tabindex="3"
               type="button"
             >
@@ -26,7 +26,7 @@ const Formcontrols = () => {
             </button>
             <button
               id="confirm-button"
-              class="button--primary"
+              className="button--primary"
               tabindex="2"
               type="submit"
             >
@@ -35,7 +35,7 @@ const Formcontrols = () => {
           </div>
         </form>
       </div>
-      <div class="discussion__comments">{/* will be generated  */}</div>
+      <div className="discussion__comments">{/* will be generated  */}</div>
     </div>
   );
 };

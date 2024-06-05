@@ -4,23 +4,23 @@ import "../footer-01/style.css";
 const Footer = () => {
   return (
     <footer>
-      <div class="footer-line"></div>
-      <div class="footer-wrapper">
-        <section class="footer-top">
-          <div class="footer-headline">
+      <div className="footer-line"></div>
+      <div className="footer-wrapper">
+        <section className="footer-top">
+          <div className="footer-headline">
             <h2>Sign up to our newsletter</h2>
             <p>Stay up to date with our news and articles</p>
           </div>
-          <div class="footer-subscribe">
+          <div className="footer-subscribe">
             <input type="email" spellcheck="false" placeholder="Your Email" />
             <button>Sign Up</button>
           </div>
         </section>
-        <div class="footer-columns">
-          <section class="footer-logo">
+        <div className="footer-columns">
+          <section className="footer-logo">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="logo"
+              className="logo"
               fill="none"
               viewBox="30 30 126 126"
             >
@@ -41,7 +41,7 @@ const Footer = () => {
                 fill="white"
               ></path>
             </svg>
-            <h2 class="hide">Astra</h2>
+            <h2 className="hide">Astra</h2>
           </section>
           <section>
             <h3>Product</h3>
@@ -164,11 +164,11 @@ const Footer = () => {
             </ul>
           </section>
         </div>
-        <div class="footer-bottom">
+        <div className="footer-bottom">
           <small>
             © My Company Ltd. <span id="year"></span>, All rights reserved
           </small>
-          <span class="social-links">
+          <span className="social-links">
             <a href="#" title="Instagram">
               <img src="assets/media/footer-01/instagram.svg" alt="Instagram" />
             </a>

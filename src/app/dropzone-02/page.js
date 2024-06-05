@@ -3,14 +3,14 @@ import "../dropzone-02/style.css";
 
 const Dropzone = () => {
   return (
-    <form class="dropzone-box">
+    <form className="dropzone-box">
       <h2>Upload and attach files</h2>
       <p>Click to upload or drag and drop</p>
-      <div class="dropzone-area">
-        <div class="file-upload-icon">
+      <div className="dropzone-area">
+        <div className="file-upload-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-cloud-upload"
+            className="icon icon-tabler icon-tabler-cloud-upload"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -27,9 +27,9 @@ const Dropzone = () => {
           </svg>
         </div>
         <input type="file" required id="upload-file" name="uploaded-file" />
-        <p class="file-info">No Files Selected</p>
+        <p className="file-info">No Files Selected</p>
       </div>
-      <div class="dropzone-actions">
+      <div className="dropzone-actions">
         <button type="reset">Cancel</button>
         <button id="submit-button" type="submit">
           Save
