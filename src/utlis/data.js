@@ -481,3 +481,23 @@ export const GALLERY02 = [
     altText: "Wooden Bridge",
   },
 ];
+export const GALLERY03 = [
+  {
+    frontImage: "assets/media/gallery-03/image-01.jpg",
+    altTextFrontImage: "Universe 01",
+    backImage: "assets/media/gallery-03/image-02.jpg",
+    altTextBackImage: "Universe 02",
+  },
+  {
+    frontImage: "assets/media/gallery-03/image-03.jpg",
+    altTextFrontImage: "Universe 03",
+    backImage: "assets/media/gallery-03/image-04.jpg",
+    altTextBackImage: "Universe 04",
+  },
+  {
+    frontImage: "assets/media/gallery-03/image-05.jpg",
+    altTextFrontImage: "Universe 05",
+    backImage: "assets/media/gallery-03/image-06.jpg",
+    altTextBackImage: "Universe 06",
+  },
+];
