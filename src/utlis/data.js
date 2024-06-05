@@ -445,3 +445,21 @@ export const PORTFOLIO = [
     buttonlink: "#",
   },
 ];
+export const GALLERY01 = [
+  {
+    image: "assets/media/gallery-01/spring.jpg",
+    altText: "Spring",
+  },
+  {
+    image: "assets/media/gallery-01/summer.jpg",
+    altText: "Summer",
+  },
+  {
+    image: "assets/media/gallery-01/autumn.jpg",
+    altText: "Autumn",
+  },
+  {
+    image: "assets/media/gallery-01/winter.jpg",
+    altText: "Winter",
+  },
+];
