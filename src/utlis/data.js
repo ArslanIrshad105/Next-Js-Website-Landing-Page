@@ -501,3 +501,21 @@ export const GALLERY03 = [
     altTextBackImage: "Universe 06",
   },
 ];
+export const GALLERY04 = [
+  {
+    image: "assets/media/gallery-02/forest.jpg",
+    text: "Forest",
+  },
+  {
+    image: "assets/media/gallery-02/lavender-field.jpg",
+    text: "Lavender Field",
+  },
+  {
+    image: "assets/media/gallery-02/wooden-bridge.jpg",
+    text: "Wooden Bridge",
+  },
+  {
+    image: "assets/media/gallery-02/forest-mountain.jpg",
+    text: "Forest Mountain",
+  },
+];
