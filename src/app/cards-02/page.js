@@ -9,23 +9,23 @@ export const metadata = {
 };
 const Cards02 = () => {
   return (
-    <div class="container">
+    <div className="container">
       {dataCards02.map((item) => {
         return (
-          <article class="card">
-            <div class="card-background">
+          <article className="card">
+            <div className="card-background">
               <img src={item.card_image} alt={item.alt_text} />
             </div>
-            <div class="content">
+            <div className="content">
               <h1>{item.title}</h1>
               <p> {item.description}</p>
             </div>
-            <div class="action-bottom-bar">
+            <div className="action-bottom-bar">
               <Link href={item.link_url}>
                 {item.link_text}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="chevron"
+                  className="chevron"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -40,7 +40,7 @@ const Cards02 = () => {
                 </svg>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="arrow"
+                  className="arrow"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"

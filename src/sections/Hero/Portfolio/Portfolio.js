@@ -2,8 +2,9 @@
 import React, { useEffect, useState } from "react";
 import "./Portfolio.css";
 import "../../../components/services/Services.css";
-import { PORTFOLIO } from "../../../utlis/data";
+import { PORTFOLIO } from "@/utlis/dat";
 import Link from "next/link";
+
 const Portfolio = () => {
   const [activeSlide, setActiveSlide] = useState(PORTFOLIO[0]);
   const [index, setIndex] = useState(0);

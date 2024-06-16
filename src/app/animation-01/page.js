@@ -8,7 +8,7 @@ export const metadata = {
 };
 const Animation01 = () => {
   return (
-    <div class="sound-wave">
+    <div className="sound-wave">
       <div></div>
       <div></div>
       <div></div>

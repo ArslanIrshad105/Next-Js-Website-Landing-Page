@@ -3,16 +3,20 @@ import "../login-03/style.css";
 
 const Login = () => {
   return (
-    <div class="form-wrapper">
-      <div class="form-side">
+    <div className="form-wrapper">
+      <div className="form-side">
         <a href="#" title="Logo">
-          <img src="assets/media/login-03/ofin.png" class="logo" alt="Ofin" />
+          <img
+            src="assets/media/login-03/ofin.png"
+            className="logo"
+            alt="Ofin"
+          />
         </a>
-        <form class="my-form">
-          <div class="form-welcome-row">
+        <form className="my-form">
+          <div className="form-welcome-row">
             <h1>Create your account &#x1F44F;</h1>
           </div>
-          <div class="socials-row">
+          <div className="socials-row">
             <a href="#" title="Use Google">
               <img src="assets/media/login-03/google.png" alt="Google" />
               Use Google
@@ -22,10 +26,11 @@ const Login = () => {
               Apple
             </a>
           </div>
-          <div class="divider">
-            <div class="divider-line"></div> Or <div class="divider-line"></div>
+          <div className="divider">
+            <div className="divider-line"></div> Or{" "}
+            <div className="divider-line"></div>
           </div>
-          <div class="text-field">
+          <div className="text-field">
             <label for="email">
               Email:
               <input
@@ -53,7 +58,7 @@ const Login = () => {
               </svg>
             </label>
           </div>
-          <div class="text-field">
+          <div className="text-field">
             <label for="password">
               Password:
               <input
@@ -84,10 +89,10 @@ const Login = () => {
               </svg>
             </label>
           </div>
-          <button type="submit" class="my-form__button">
+          <button type="submit" className="my-form__button">
             Login
           </button>
-          <div class="my-form__actions">
+          <div className="my-form__actions">
             <a href="#" title="Reset Password">
               Reset Password
             </a>
@@ -97,8 +102,12 @@ const Login = () => {
           </div>
         </form>
       </div>
-      <div class="info-side">
-        <img src="assets/media/login-03/mock.png" alt="Mock" class="mockup" />
+      <div className="info-side">
+        <img
+          src="assets/media/login-03/mock.png"
+          alt="Mock"
+          className="mockup"
+        />
       </div>
     </div>
   );

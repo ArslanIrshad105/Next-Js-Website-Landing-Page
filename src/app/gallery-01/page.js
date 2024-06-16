@@ -3,6 +3,7 @@ import "../gallery-01/style.css";
 import { GALLERY01 } from "@/utlis/data";
 
 const Gallery = () => {
+  console.log("gallery", GALLERY01);
   return (
     <div className="background">
       <div className="gallery">

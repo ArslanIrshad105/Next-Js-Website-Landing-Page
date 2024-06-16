@@ -3,20 +3,20 @@ import "../cards-06/style.css";
 
 const Cards06 = () => {
   return (
-    <div class="container">
-      <article class="card">
-        <div class="background">
+    <div className="container">
+      <article className="card">
+        <div className="background">
           <img
             src="/assets/media/cards06/preview.png"
             alt="Fetch API GraphQL Preview"
           />
         </div>
-        <div class="content">
-          <div class="card-header">
-            <div class="card-type">Web Dev</div>
-            <div class="latest-article">Latest Article</div>
+        <div className="content">
+          <div className="card-header">
+            <div className="card-type">Web Dev</div>
+            <div className="latest-article">Latest Article</div>
           </div>
-          <div class="card-content">
+          <div className="card-content">
             <h2>Using Fetch API For Executing GraphQL Queries And Mutations</h2>
             <p>
               GraphQL is a powerful tool for querying data from remote servers
@@ -33,24 +33,28 @@ const Cards06 = () => {
               API, then we can move to simple GraphQL queries execution.
             </p>
           </div>
-          <div class="blog-preview__bottom">
-            <div class="blog-author">
+          <div className="blog-preview__bottom">
+            <div className="blog-author">
               <img src="/assets/media/cards06/profile.jpg" alt="Avatar" />
-              <div class="blog-author__name">
-                <div class="blog-author__name">Arslán Irshád</div>
+              <div className="blog-author__name">
+                <div className="blog-author__name">Arslán Irshád</div>
                 <a
                   rel="author"
                   href="mailto:arslan@sozie.com"
-                  class="blog-author__alias"
+                  className="blog-author__alias"
                 >
                   Email
                 </a>
               </div>
             </div>
-            <a class="go-to-article-button" href="/my-blog" title="New Blog">
+            <a
+              className="go-to-article-button"
+              href="/my-blog"
+              title="New Blog"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-arrow-narrow-right"
+                className="icon icon-tabler icon-tabler-arrow-narrow-right"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"

@@ -3,18 +3,22 @@ import "../login-02/style.css";
 
 const Login = () => {
   return (
-    <div class="login-wrapper">
-      <div class="login-side">
+    <div className="login-wrapper">
+      <div className="login-side">
         <a href="#" title="Logo">
-          <img class="logo" src="assets/media/login-02/logo.png" alt="Logo" />
+          <img
+            className="logo"
+            src="assets/media/login-02/logo.png"
+            alt="Logo"
+          />
         </a>
-        <div class="my-form__wrapper">
-          <div class="login-welcome-row">
+        <div className="my-form__wrapper">
+          <div className="login-welcome-row">
             <h1>Welcome back &#x1F44F;</h1>
             <p>Please enter your details!</p>
           </div>
-          <form class="my-form">
-            <div class="socials-row">
+          <form className="my-form">
+            <div className="socials-row">
               <a href="#" title="Use Google">
                 <img src="assets/media/login-02/google.png" alt="Google" />
                 Log in with Google
@@ -24,12 +28,12 @@ const Login = () => {
                 Log in with Apple
               </a>
             </div>
-            <div class="divider">
-              <div class="divider-line"></div>
+            <div className="divider">
+              <div className="divider-line"></div>
               Or
-              <div class="divider-line"></div>
+              <div className="divider-line"></div>
             </div>
-            <div class="text-field">
+            <div className="text-field">
               <label for="email">Email:</label>
               <input
                 type="email"
@@ -44,7 +48,7 @@ const Login = () => {
                 src="assets/media/login-02/email.svg"
               />
             </div>
-            <div class="text-field">
+            <div className="text-field">
               <label for="password">Password:</label>
               <input
                 id="password"
@@ -62,15 +66,15 @@ const Login = () => {
                 src="assets/media/login-02/password.svg"
               />
             </div>
-            <input type="submit" class="my-form__button" value="Login" />
-            <div class="my-form__actions">
-              <div class="my-form__row">
+            <input type="submit" className="my-form__button" value="Login" />
+            <div className="my-form__actions">
+              <div className="my-form__row">
                 <span>Did you forget your password?</span>
                 <a href="#" title="Reset Password">
                   Reset Password
                 </a>
               </div>
-              <div class="my-form__signup">
+              <div className="my-form__signup">
                 <a href="#" title="Create Account">
                   Create Account
                 </a>
@@ -79,8 +83,8 @@ const Login = () => {
           </form>
         </div>
       </div>
-      <div class="info-side">
-        <div class="welcome-message">
+      <div className="info-side">
+        <div className="welcome-message">
           <h2>Navitron Maps! 👋</h2>
           <p>
             Your ultimate guide to navigating the world and discovering new
@@ -88,7 +92,11 @@ const Login = () => {
           </p>
         </div>
         <div>
-          <img src="assets/media/login-02/mock.png" alt="Mock" class="mockup" />
+          <img
+            src="assets/media/login-02/mock.png"
+            alt="Mock"
+            className="mockup"
+          />
         </div>
       </div>
     </div>

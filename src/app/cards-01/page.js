@@ -9,21 +9,21 @@ export const metadata = {
 };
 const Cards01 = () => {
   return (
-    <div class="background">
-      <div class="centering">
-        <div class="articles">
+    <div className="background">
+      <div className="centering">
+        <div className="articles">
           {dataCards01.map((item) => {
             return (
               <article>
                 <figure>
                   <img src={item.blog_image} alt={item.alt_text} />
                 </figure>
-                <div class="article-preview">
+                <div className="article-preview">
                   <h2>{item.title}</h2>
                   <p>{item.description}</p>
                   <Link
                     href={item.link_url}
-                    class="read-more"
+                    className="read-more"
                     title="Read More"
                   >
                     Read more
