@@ -29,6 +29,7 @@
 .menu__wrapper {
   display: flex;
   position: fixed;
+  top: 0;
   justify-content: space-between;
   width: 100vw;
   z-index: 2;
@@ -183,7 +184,7 @@
 
 .list-items-with-description li svg {
   stroke: var(--link-gray-hover);
-  stroke-width: 1px;
+  strokewidth: 1px;
   width: 1.5rem;
   height: 1.5rem;
 }

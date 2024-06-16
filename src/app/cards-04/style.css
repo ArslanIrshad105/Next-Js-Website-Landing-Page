@@ -124,7 +124,7 @@ body {
   height: 2rem;
   width: 2rem;
   stroke: var(--text);
-  stroke-width: 1.5px;
+  strokewidth: 1.5px;
 }
 
 .card__btn--like {
