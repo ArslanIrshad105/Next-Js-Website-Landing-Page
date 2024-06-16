@@ -7,7 +7,7 @@ export const metadata = {
 };
 const Button03 = () => {
   return (
-    <a href="#" title="Button 03" class="button-glow">
+    <a href="#" title="Button 03" className="button-glow">
       Start Learning
     </a>
   );

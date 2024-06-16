@@ -3,38 +3,38 @@ import "../login-05/style.css";
 
 const Login = () => {
   return (
-    <div class="form-wrapper">
-      <main class="form-side">
+    <div className="form-wrapper">
+      <main className="form-side">
         <a href="#" title="Logo">
           <img
             src="assets/media/login-05/laplace.svg"
             alt="Laplace Logo"
-            class="logo"
+            className="logo"
           />
         </a>
-        <form class="my-form">
-          <div class="form-welcome-row">
+        <form className="my-form">
+          <div className="form-welcome-row">
             <h1>Welcome back! &#128079;</h1>
             <h2>Login with your account!</h2>
           </div>
-          <div class="socials-row">
+          <div className="socials-row">
             <a href="#" title="Use Apple">
               <img src="assets/media/login-05/apple.png" alt="Apple" />
               Continue with Apple
             </a>
           </div>
-          <div class="socials-row">
+          <div className="socials-row">
             <a href="#" title="Use Github">
               <img src="assets/media/login-05/google.png" alt="Google" />
               Continue with Google
             </a>
           </div>
-          <div class="divider">
-            <div class="divider-line"></div>
+          <div className="divider">
+            <div className="divider-line"></div>
             or
-            <div class="divider-line"></div>
+            <div className="divider-line"></div>
           </div>
-          <div class="text-field">
+          <div className="text-field">
             <label for="email">Email</label>
             <input
               type="email"
@@ -44,9 +44,9 @@ const Login = () => {
               placeholder="you@example.com"
               required
             />
-            <div class="error-message">Email in incorrect format</div>
+            <div className="error-message">Email in incorrect format</div>
           </div>
-          <div class="text-field">
+          <div className="text-field">
             <label for="password">Password</label>
             <input
               id="password"
@@ -58,15 +58,15 @@ const Login = () => {
               pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
               required
             />
-            <div class="error-message">
+            <div className="error-message">
               Minimum 6 characters at least 1 Alphabet and 1 Number
             </div>
           </div>
-          <button class="my-form__button" type="submit">
+          <button className="my-form__button" type="submit">
             Sign In
           </button>
-          <div class="my-form__actions">
-            <div class="my-form__row">
+          <div className="my-form__actions">
+            <div className="my-form__row">
               <span>Don't have an account?</span>
               <a href="#" title="Reset Password">
                 Sign Up Now
@@ -75,24 +75,24 @@ const Login = () => {
           </div>
         </form>
       </main>
-      <aside class="info-side">
-        <div class="blockquote-wrapper">
+      <aside className="info-side">
+        <div className="blockquote-wrapper">
           <img
             src="assets/media/login-05/returns.png"
             alt="Returns"
-            class="returns"
+            className="returns"
           />
           <blockquote>
             With Laplace, I have significantly outperformed S&P 500 in the last
             three years.
           </blockquote>
-          <div class="author">
+          <div className="author">
             <img
               src="assets/media/login-05/avatar.png"
               alt="Avatar"
-              class="avatar"
+              className="avatar"
             />
-            <span class="author-name">@ai_trader</span>
+            <span className="author-name">@ai_trader</span>
           </div>
         </div>
       </aside>

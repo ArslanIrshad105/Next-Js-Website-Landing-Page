@@ -1,8 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import ServicesCard from "./servicesCard/ServicesCard";
-import { SERVICES } from "../../utlis/data";
+import { SERVICES } from "@/utlis/dat";
 import ServicesDetail from "./servicesDetail/ServicesDetail";
+
 const Services = () => {
   const [selectedService, setSelectedService] = useState(SERVICES[0]);
 

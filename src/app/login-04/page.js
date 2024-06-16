@@ -3,28 +3,32 @@ import "../login-04/style.css";
 
 const Login = () => {
   return (
-    <form class="my-form">
-      <div class="login-welcome-row">
+    <form className="my-form">
+      <div className="login-welcome-row">
         <a href="#" title="Logo">
-          <img src="assets/media/login-04/logo_1.svg" alt="Logo" class="logo" />
+          <img
+            src="assets/media/login-04/logo_1.svg"
+            alt="Logo"
+            className="logo"
+          />
         </a>
         <h1>Welcome back &#x1F44F;</h1>
         <p>Please enter your details!</p>
       </div>
-      <div class="input__wrapper">
+      <div className="input__wrapper">
         <input
           type="email"
           id="email"
           name="email"
-          class="input__field"
+          className="input__field"
           placeholder="Your Email"
           required
         />
-        <label for="email" class="input__label">
+        <label for="email" className="input__label">
           Email
         </label>
         <svg
-          class="input__icon"
+          className="input__icon"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -40,21 +44,21 @@ const Login = () => {
           <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28"></path>
         </svg>
       </div>
-      <div class="input__wrapper">
+      <div className="input__wrapper">
         <input
           id="password"
           type="password"
-          class="input__field"
+          className="input__field"
           placeholder="Your Password"
           title="Minimum 6 characters at least 1 Alphabet and 1 Number"
           pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
           required
         />
-        <label for="password" class="input__label">
+        <label for="password" className="input__label">
           Password
         </label>
         <svg
-          class="input__icon"
+          className="input__icon"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
@@ -71,17 +75,17 @@ const Login = () => {
           <path d="M8 11v-4a4 4 0 1 1 8 0v4"></path>
         </svg>
       </div>
-      <button type="submit" class="my-form__button">
+      <button type="submit" className="my-form__button">
         Login
       </button>
-      <div class="socials-row">
+      <div className="socials-row">
         <a href="#" title="Use Google">
           <img src="assets/media/login-04/google.png" alt="Google" />
           Log in with Google
         </a>
       </div>
-      <div class="my-form__actions">
-        <div class="my-form__row">
+      <div className="my-form__actions">
+        <div className="my-form__row">
           <span>Don't have an account?</span>
           <a href="#" title="Create Account">
             Sign Up

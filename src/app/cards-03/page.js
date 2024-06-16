@@ -7,11 +7,11 @@ export const metadata = {
 };
 const Cards03 = () => {
   return (
-    <div class="container">
-      <ul class="cards">
+    <div className="container">
+      <ul className="cards">
         <li>
           <div
-            class="card-content"
+            className="card-content"
             style={{
               backgroundImage:
                 "url('/assets/media/cards03/forest-resized.jpg')",
@@ -20,7 +20,7 @@ const Cards03 = () => {
         </li>
         <li>
           <div
-            class="card-content"
+            className="card-content"
             style={{
               backgroundImage:
                 "url('/assets/media/cards03/lavender-field-resized.jpg')",
@@ -29,7 +29,7 @@ const Cards03 = () => {
         </li>
         <li>
           <div
-            class="card-content"
+            className="card-content"
             style={{
               backgroundImage:
                 "url('/assets/media/cards03/wooden-bridge-resized.jpg')",

@@ -13,7 +13,7 @@ const ServicesDetail = (props) => {
           return (
             <div className="pb-2 mb-3 pr-4 hover-text">
               <img height={30} width={30} src={i.icon} alt={i.altText} />
-              <span class="tooltip-text" id="top">
+              <span className="tooltip-text" id="top">
                 {i.altText}
               </span>
             </div>

@@ -7,7 +7,7 @@ export const metadata = {
 };
 const Button02 = () => {
   return (
-    <a href="#" title="Button 02" class="cta-button">
+    <a href="#" title="Button 02" className="cta-button">
       Learn
     </a>
   );

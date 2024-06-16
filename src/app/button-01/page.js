@@ -7,8 +7,8 @@ export const metadata = {
 };
 const Button01 = () => {
   return (
-    <span class="background">
-      <a href="#" class="button">
+    <span className="background">
+      <a href="#" className="button">
         <svg>
           <rect x="0" y="0" fill="none" width="100%" height="100%" />
         </svg>

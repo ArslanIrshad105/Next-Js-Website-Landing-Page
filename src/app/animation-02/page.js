@@ -8,10 +8,10 @@ export const metadata = {
 };
 const Animation02 = () => {
   return (
-    <a class="button" href="#">
+    <a className="button" href="#">
       <svg height="60" width="300" xmlns="http://www.w3.org/2000/svg">
-        <rect class="shape" height="60" width="300" />
-        <div class="text">Learn CSS</div>
+        <rect className="shape" height="60" width="300" />
+        <div className="text">Learn CSS</div>
       </svg>
     </a>
   );
