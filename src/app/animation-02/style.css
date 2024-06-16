@@ -33,8 +33,8 @@ body {
   stroke: var(--accent);
   stroke-dasharray: 120 500;
   stroke-dashoffset: -454;
-  stroke-width: 8px;
-  transition: stroke-width 0.9s, stroke-dashoffset 0.9s, stroke-dasharray 0.9s;
+  strokewidth: 8px;
+  transition: strokeWidth 0.9s, stroke-dashoffset 0.9s, stroke-dasharray 0.9s;
 }
 
 .text {
@@ -48,7 +48,7 @@ body {
 }
 
 .shape:hover {
-  stroke-width: 3px;
+  strokewidth: 3px;
   stroke-dashoffset: 0;
   stroke-dasharray: 760;
 }

@@ -144,7 +144,7 @@ footer {
 
 .footer-logo svg {
   stroke: var(--text-color);
-  stroke-width: 8px;
+  strokewidth: 8px;
   width: 3rem;
   height: 3rem;
 }

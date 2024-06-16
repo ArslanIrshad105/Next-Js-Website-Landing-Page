@@ -24,6 +24,7 @@ const Hero2 = () => {
               height={500}
               src="/assets/Headphone.png"
               alt="banner"
+              priority={true}
             />
 
             <div className="banner-inner">

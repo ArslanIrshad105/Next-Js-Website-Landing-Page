@@ -180,7 +180,7 @@ body {
 
 .list-items-with-description li svg {
   stroke: var(--link-gray-hover);
-  stroke-width: 1px;
+  strokewidth: 1px;
   width: 1.5rem;
   height: 1.5rem;
 }

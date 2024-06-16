@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "../Services.css";
 import Link from "next/link";
 
@@ -9,14 +9,16 @@ const ServicesDetail = (props) => {
       <p className="Services-module--para--5ad1a">{serviceTitle}</p>
       <p className="pb-2">{serviceDescription}</p>
       <div className="d-flex align-items-center flex-wrap">
-        {icons.map((i) => {
+        {icons.map((i, idx) => {
           return (
-            <div className="pb-2 mb-3 pr-4 hover-text">
-              <img height={30} width={30} src={i.icon} alt={i.altText} />
-              <span className="tooltip-text" id="top">
-                {i.altText}
-              </span>
-            </div>
+            <Fragment key={idx}>
+              <div className="pb-2 mb-3 pr-4 hover-text">
+                <img height={30} width={30} src={i.icon} alt={i.altText} />
+                <span className="tooltip-text" id="top">
+                  {i.altText}
+                </span>
+              </div>
+            </Fragment>
           );
         })}
       </div>

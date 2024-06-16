@@ -33,11 +33,11 @@ const Cards04 = () => {
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
-                    stroke-width="2"
+                    strokeWidth="2"
                     stroke="currentColor"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className={isLike === item.id ? "card__btn--like" : null}
                     onClick={() => toggleButton(item.id)}
                   >

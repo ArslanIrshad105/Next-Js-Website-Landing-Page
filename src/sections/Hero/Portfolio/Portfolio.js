@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import "./Portfolio.css";
 import "../../../components/services/Services.css";
 import { PORTFOLIO } from "@/utlis/dat";
@@ -69,22 +69,24 @@ const Portfolio = () => {
           <div className="pl-md-5 Services-module--serviceDetail--99387 col-md-6">
             <div>
               <ul className="button__bar">
-                {PORTFOLIO.map((item) => {
+                {PORTFOLIO.map((item, idx) => {
                   return (
-                    <li
-                      onClick={() => {
-                        handleSelectedButton(item.id);
-                      }}
-                    >
-                      <button
-                        id={item.id}
-                        className={
-                          item.id === index
-                            ? "li-button active-li-button"
-                            : "li-button "
-                        }
-                      ></button>
-                    </li>
+                    <Fragment key={idx}>
+                      <li
+                        onClick={() => {
+                          handleSelectedButton(item.id);
+                        }}
+                      >
+                        <button
+                          id={item.id}
+                          className={
+                            item.id === index
+                              ? "li-button active-li-button"
+                              : "li-button "
+                          }
+                        ></button>
+                      </li>
+                    </Fragment>
                   );
                 })}
               </ul>

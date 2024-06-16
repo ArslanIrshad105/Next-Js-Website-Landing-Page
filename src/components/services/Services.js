@@ -31,8 +31,9 @@ const Services = () => {
         <div className="row">
           <div className="col-md-6">
             <div className="row justify-content-center">
-              {SERVICES.map((item) => (
+              {SERVICES.map((item, idx) => (
                 <ServicesCard
+                  key={idx}
                   icon={item.serviceIcon}
                   title={item.title}
                   isActive={selectedService.title === item.title}
