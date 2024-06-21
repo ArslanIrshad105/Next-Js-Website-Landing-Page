@@ -5,8 +5,10 @@
   --text-heading-gray: #b9b9b9;
 }
 
+section {
+  padding: 1px 0px !important;
+}
 /*? footer containers */
-
 footer {
   /* position: absolute; */
   margin-top: 5rem;
@@ -137,7 +139,7 @@ footer {
 
 .footer-logo > svg {
   stroke: var(--text-color);
-  strokewidth: 0.5rem;
+  stroke-width: 0.5rem;
   width: 3rem;
 }
 

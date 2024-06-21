@@ -4,7 +4,7 @@ import "../footer-01/style.css";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-line"></div>
+      {/* <div className="footer-line"></div> */}
       <div className="footer-wrapper">
         <section className="footer-top">
           <div className="footer-headline">

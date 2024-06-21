@@ -2,7 +2,6 @@
   --primary: #3062d4;
   --primary-hover: #173783;
   --important: #f55e5e;
-  --header-height: 5rem;
   --bg-white: #f8f8ff;
 }
 
@@ -19,7 +18,8 @@ body {
 
 header {
   position: fixed;
-  height: var(--header-height);
+  top: 200px;
+  height: 65px;
   background-color: var(--primary);
   padding: 0 1rem;
   width: 100%;

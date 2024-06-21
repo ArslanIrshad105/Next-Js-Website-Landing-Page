@@ -17,13 +17,15 @@ body {
 
 header {
   position: fixed;
-  height: 80px;
+  top: 65px;
+  height: 65px;
   padding: 0 16px;
   width: 100%;
   display: flex;
   align-items: center;
   background-color: var(--primary);
   justify-content: end;
+  z-index: 3;
 }
 
 .navigation__group {
