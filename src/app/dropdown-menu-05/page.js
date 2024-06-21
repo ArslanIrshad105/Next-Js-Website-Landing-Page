@@ -195,7 +195,7 @@ const DropdownMenu = () => {
           </ul>
         </nav>
       </div>
-      <div className="action-buttons hide">
+      <div className="action-buttons  hide">
         <a href="#log-in" title="Log in" className="secondary">
           Log In
         </a>
