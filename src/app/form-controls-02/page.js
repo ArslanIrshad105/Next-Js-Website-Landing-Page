@@ -5,7 +5,7 @@ const Formcontrols = () => {
   return (
     <div className="centering">
       <div className="box">
-        <input className="search" placeholder=" " spellcheck="false" />
+        <input className="search" placeholder=" " spellCheck="false" />
       </div>
     </div>
   );

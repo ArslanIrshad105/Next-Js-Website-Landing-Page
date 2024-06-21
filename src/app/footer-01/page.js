@@ -12,7 +12,7 @@ const Footer = () => {
             <p>Stay up to date with our news and articles</p>
           </div>
           <div className="footer-subscribe">
-            <input type="email" spellcheck="false" placeholder="Your Email" />
+            <input type="email" spellCheck="false" placeholder="Your Email" />
             <button>Sign Up</button>
           </div>
         </section>

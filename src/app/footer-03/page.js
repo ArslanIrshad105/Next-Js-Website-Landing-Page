@@ -11,7 +11,7 @@ const Footer = () => {
             <p>Stay up to date with our news and articles</p>
           </div>
           <form className="subscribe-form">
-            <input type="email" spellcheck="false" placeholder="Your Email" />
+            <input type="email" spellCheck="false" placeholder="Your Email" />
             <button type="submit">Subscribe</button>
           </form>
         </div>
