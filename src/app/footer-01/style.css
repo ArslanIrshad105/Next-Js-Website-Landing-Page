@@ -5,14 +5,9 @@
   --text-heading-gray: #b9b9b9;
 }
 
-section {
-  padding: 1px 0px !important;
-}
 /*? footer containers */
 footer {
-  /* position: absolute; */
   margin-top: 5rem;
-  bottom: 0;
   background-color: var(--footer-background);
   min-width: 18rem;
   width: 100vw;

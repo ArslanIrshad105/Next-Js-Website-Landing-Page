@@ -1,0 +1,140 @@
+:root {
+  --background-color: #2c2c2c;
+  --active-color: #00c896;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100vmin !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.socials-wrapper {
+  background-color: var(--background-color);
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-menu {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.active > .socials-menu {
+  opacity: 1;
+}
+
+.share-button {
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--background-color);
+  border-radius: 50%;
+  outline: 2px solid white;
+  outline-offset: 3px;
+}
+
+.share-button img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.active .share-button,
+.share-button:hover {
+  background-color: var(--active-color);
+  transform: scale(1.03);
+}
+
+.social {
+  position: absolute;
+  list-style: none;
+  transition: all 0.5s ease-in-out;
+  display: grid;
+  cursor: pointer;
+  place-items: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  outline: 2px solid white;
+  outline-offset: 3px;
+}
+
+.social img {
+  height: 2rem;
+  width: 2rem;
+  transition: all 0.3s;
+}
+
+.social a {
+  display: grid;
+  cursor: pointer;
+  place-items: center;
+}
+
+.social:hover img {
+  transform: scale(1.1);
+}
+
+.active .social:nth-child(1) {
+  transform: translateX(-8rem) translateY(-2rem);
+}
+
+.active .social:nth-child(1):hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.active .social:nth-child(2) {
+  transform: translateX(-2rem) translateY(-8rem);
+}
+
+.active .social:nth-child(2):hover {
+  background-color: #1d9bf0;
+}
+
+.active .social:nth-child(3) {
+  transform: translateX(4rem) translateY(-2rem);
+}
+
+.active .social:nth-child(3):hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.active .social:nth-child(4) {
+  transform: translateX(-2rem) translateY(4rem);
+}
+
+.active .social:nth-child(4):hover {
+  background-color: #e52d27;
+}
