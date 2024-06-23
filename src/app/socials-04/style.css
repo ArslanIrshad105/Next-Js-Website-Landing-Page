@@ -1,0 +1,73 @@
+:root {
+  --background-color: #060d23;
+  --linkedin: #0a66c2;
+  --youtube: #e52d27;
+  --x: #0f1419;
+  --white-color: #fff;
+}
+
+.body-background {
+  background: var(--background-color);
+}
+
+.social-media-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  height: 100vh;
+  transform: translateY(50%);
+}
+
+.social-media-button {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background: transparent;
+  border-radius: 50%;
+  outline: 2px solid white;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: grid;
+  place-items: center;
+}
+
+.social-media-button:hover {
+  outline-offset: 3px;
+  transition: all 0.3s;
+}
+
+.social-media-button img {
+  transition: all 0.3s;
+}
+
+.social-media-button:hover img {
+  transform: scale(1.15);
+}
+
+.social-media-button:hover:nth-child(1) {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.social-media-button:hover:nth-child(2) {
+  background-color: var(--white-color);
+}
+
+.social-media-button:hover:nth-child(2) svg {
+  stroke: var(--x);
+}
+
+.social-media-button:hover:nth-child(3) {
+  background-color: var(--youtube);
+}
+
+.social-media-button:hover:nth-child(4) {
+  background-color: var(--linkedin);
+}
